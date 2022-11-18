@@ -1,0 +1,230 @@
+.logo{
+    font-family: 'Water Brush', cursive;
+    font-size:xx-large;
+}
+.chapter{
+    font-family: 'Raleway', sans-serif;
+}
+.top{
+    background-color: #82A284;
+    color:black;
+    font-size: large;
+}
+.note{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 100px;
+}
+body{
+    background-color:#e5ece1;
+}
+.icon{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+.email{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-size: 20px;
+}
+.asv{
+    border:2px solid #82A284;
+    font-family: 'Raleway', sans-serif;
+} 
+.answer{
+    font-family: 'Raleway', sans-serif;
+}
+.network{
+    color:black;
+}
+
+.item{
+    padding: 20px;
+    
+}
+.accordion-button{
+    background-color:white !important;
+    color: black !important;
+}
+.accordion{
+    width: 90%;
+    margin: auto;
+}
+
+
+.headerReminder{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(251, 248, 249, 0.9);
+    margin-top: 50px;
+    
+}
+#header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+.offer{
+
+    align-self: center;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.reminder{
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+}
+.change{
+    font-size: 80px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(251, 248, 249, 0.9); 
+}
+.timer{
+    
+    height: 200px;
+    width: 150px;
+    margin: 50px;
+    border: 1px solid #82A284; 
+}
+
+#block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #82A284;
+}
+h4{
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #82A284;
+}
+
+.img-fluid{
+    box-shadow: 20px 20px 1px #82A284;
+}
+
+.imagePositionFixed {
+    background:url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 40vh;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.position-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.position-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: #82A284;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu{
+    padding: 100px;
+    
+}
+.position-relative{
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+
+@media all and (max-width:1200px){
+    .timer{
+        height: 100px;
+        width: 100px;
+        margin: 10px;  
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .image-offer{
+        width: 200px;
+    }
+    .offer{
+        font-size: 40px;
+    }
+    .reminder{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+}
+@media all and (max-width:900px){
+   .menu{
+    padding: 20px;
+   }
+}
+@media all and (max-width:450px){
+    .menu{
+     padding: 10px;
+    }
+    .offer{
+        font-size: 25px;
+    }
+    .reminder{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .timer{
+        height: 60px;
+        width: 50px;
+        margin: 5px;  
+    }
+    
+    h3{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .image-offer{
+        width: 100px;
+    }
+#header{
+    margin-top: 20px;
+}
+.note{
+    margin-bottom: 10px;
+}
+.lead{
+    font-size: 15px;
+}
+
+ }
+
+
+
+
+
