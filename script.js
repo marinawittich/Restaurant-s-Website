@@ -1,5 +1,5 @@
 function countDowntimer (){
-    const endOfOffer = new Date('December 4, 2022 13:00');
+    const endOfOffer = new Date('December 4, 2023 13:00');
     const now = new Date();
     const diff = endOfOffer - now;
 
